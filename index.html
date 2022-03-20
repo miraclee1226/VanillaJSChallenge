@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Momentum APP</title>
+</head>
+<body>
+  <div class="controls">
+  <h2 class="prettyClock" id= "clock">00:00:00</h2>
+  <h3 class ="prettyDate" id="Date">0000/00/00</h3>
+  <div class="moveDown">
+  <form class="hidden prettyForm" id="login-form">
+    <input class="prettyLogin" required maxlength="15" 
+    type="text" placeholder="What is you name?">
+    <input class="prettyButton" type="submit" value="Log in" >
+  </form>
+    <h1 id="greeting" class="hidden"></h1>
+  <form class="prettyTodoform"id="todo-form">
+    <input class="prettyTodo" type="text" placeholder="Wirte a To Do and Press Enter"  required />
+  </form>
+  
+  </div>
+  <ul class="prettylist" id="todo-list"></ul>
+  <div class ="prettyWeather" id="weather">
+    <span></span>
+    <span></span>
+  </div>
+  </div>
+ 
+  <script src="greetings.js"></script>
+  <script src="clock.js"></script>
+  <script src="todo.js"></script>
+  <script src="background.js"></script>
+  <script src="weather.js"></script>
+
+</body>
+</html>
