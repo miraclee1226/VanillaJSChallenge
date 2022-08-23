@@ -1,6 +1,6 @@
 # VanillaJSChallenge
-노마드코더 - 바닐라JS로 크롬 앱 만들기
-링크: https://miraclee1226.github.io/VanillaJSChallenge/
+- 노마드코더 - 바닐라JS로 크롬 앱 만들기
+- 링크: https://miraclee1226.github.io/VanillaJSChallenge/
 
 # 기능
 - todo 리스트 작성
